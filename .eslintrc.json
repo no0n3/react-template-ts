@@ -1,0 +1,19 @@
+{
+    "rules": {
+        "semi": ["error", "always"],
+        "quotes": ["error", "double"],
+        "react-hooks/rules-of-hooks": "error"
+    },
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint",
+        "react-hooks"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:react/recommended"
+    ]
+}
